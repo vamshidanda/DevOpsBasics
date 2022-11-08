@@ -4,6 +4,8 @@ sudo apt install docker.io
 -----------------------------------------------------------------
 #committing changes of a container
 
+sudo chmod 777 /var/run/docker.sock
+
 docker run -it -d ubuntu
 
 docker exec -it f88282209de8 bash
